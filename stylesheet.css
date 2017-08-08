@@ -1,0 +1,231 @@
+body{background-color: black;}
+#bod{
+  display: block;
+  position: absolute;
+  top:0px;
+  height: 90%;
+  width: 50%;
+  left: 25%;
+  /*border: 2px solid blue;*/
+}
+footer{
+  top: 90vh;
+  vertical-align: middle;
+  width: 20%;
+  /*border: 3px solid green;*/
+  left:-340px;
+  text-align: center;
+  color: lightgrey;
+ position: absolute;
+}
+.left{
+  /*border: 2px solid red;*/
+  top:2vh;
+  left: -50%;
+  width: 45%;
+  height: 95vh;
+  position: absolute;
+  display: block;
+  border-radius: 30px;
+  background-color: grey;
+}
+.right{
+  /*border: 2px solid black;*/
+  display: block;
+  position: absolute;
+  left:100%;
+  width: 45%;
+  height: 98vh;
+  background-color: grey;
+  border-radius: 30px;
+  top: 0px;
+}
+
+ul {
+  list-style-type: none;
+}
+.coordonnees{
+  /*border: 2px solid green;*/
+  text-align: left;
+  height: 20%;
+  padding-top: 5%;
+  padding-right: 5%;
+  margin-left: 5%;
+  font-size: 1.3em;
+}
+#photo{
+  border-radius: 50%;
+  position: absolute;
+  left: 63%;
+  top: 6%;
+}
+.btnNav{
+  height: 100px;
+  width: 300px;
+  border-radius: 30px;
+  margin-bottom: 10%;
+}
+.experiences{
+  height: 80%;
+position: relative;
+/*left: 50%;*/
+  margin-top: 2%;
+  width: 80%;
+  /*border: 4px solid brown;*/
+  padding-left: 5%;
+}
+article{
+  top: 0;
+  margin-top: 0;
+  padding-top: 0;
+}
+#imgLabo{
+float: right;
+top:-20%;
+}
+#freepikLink{
+float:right;
+text-align: right;
+}
+#photoBoucher{
+  width: 500px;
+  height: 339px;
+}
+#formBoucher{
+  width: 50%;
+}
+.titreformation>a{color:blue;}
+.titreformation{
+  margin-top: 0;
+  padding-top: 0;
+  text-align: justify;
+  color: green;
+  padding-left: 5%;
+  font-family: cursive;
+  font-size: 2.3em;
+}
+#titreConcepteur{
+  padding-left: 10%;
+  color: darkred;
+  font-size: 1.5em;
+}
+#titreBoucher{
+  color: cyan;
+}
+#pConcepteur{
+  padding-left: 25%;
+  padding-right: 10%;
+}
+#btnFormations{
+  margin-left: 10%;
+
+}
+.cod{
+  float: right;
+  filter: contrast(150%);
+  /*filter: brightness(20%);*/
+}
+.divForm {
+  margin-left: 12%;
+  margin-right: 12%;
+  /*text-align:  justify;*/
+  top: 0;
+  color: grey;
+  font-size: 1.2em;
+}
+.divForm p{
+  font-size: 1em;
+}
+#jqueryRefresh{
+  /*bottom: 90vh;*/
+  will-change: contents;
+  position: absolute;
+  /*border: 5px solid green;*/
+  top: 0;
+  margin-top: 0;
+  display: block;
+  /*background-color: white;*/
+  padding-top: 0;
+}
+
+div {
+    font-family: Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+.timeline {
+    width: 400px;
+    margin-left: 5%;
+}
+.timeline .timeline-item {
+    width: 100%;
+}
+.timeline .timeline-item .info, .timeline .timeline-item .year {
+    color: #eee;
+    display: block;
+    float:left;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.timeline .timeline-item.close .info, .timeline .timeline-item.close .year {
+    color: #ccc;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.timeline .timeline-item .year {
+    font-size: 24px;
+    font-weight: bold;
+    width: 22%;
+}
+.timeline .timeline-item .info {
+    width: 100%;
+    width: 78%;
+    margin-left: -2px;
+    padding: 0 0 40px 35px;
+    border-left: 4px solid #aaa;
+    font-size: 14px;
+    line-height: 20px;
+}
+.timeline .timeline-item .marker {
+    background-color: #fff;
+    border: 4px solid #aaa;
+    height: 20px;
+    width: 20px;
+    border-radius: 100px;
+    display: block;
+    float: right;
+    margin-right: -14px;
+    z-index: 2000;
+    position: relative;
+}
+.timeline .timeline-item.active .info, .timeline .timeline-item:hover .info {
+    color: #444;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.timeline .timeline-item.active .year, .timeline .timeline-item:hover .year {
+    color: #9DB668;
+}
+.timeline .timeline-item .marker .dot {
+    background-color: white;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
+    display: block;
+    border: 4px solid white;
+    height: 12px;
+    width: 12px;
+    border-radius: 100px;
+    float: right;
+    z-index: 2000;
+    position: relative;
+}
+.timeline .timeline-item.active .marker .dot, .timeline .timeline-item:hover .marker .dot {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
+    background-color: #9DB668;
+    box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
